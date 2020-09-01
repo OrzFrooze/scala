@@ -62,7 +62,7 @@ object Fs {
   }
 
   def JDBC() = {
-    val url = "jdbc:mysql://10.130.10.30:3306/smap_toll_20200714"
+    val url = "jdbc:mysql://10.130.10.30:3306/smap_toll_20200714?serverTimezone=GMT"
     val driver = "com.mysql.cj.jdbc.Driver"
     val user = "root"
     val password = "Navinfo1!"
@@ -76,7 +76,7 @@ object Fs {
       var statement = conn.createStatement
       val rs = statement.executeQuery(sql)
       while (rs.next){
-        println(rs.getInt(0))
+        println(rs.getInt(1))
       }
     } catch {
       case e: Exception => {
