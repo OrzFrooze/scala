@@ -17,6 +17,11 @@ object ListDemo {
     fruits.foreach(i => print(i + ";"))
   }
 
+
+  def unzipDemo() = {
+
+  }
+
   def main(args: Array[String]): Unit = {
     //    val list = List.range(1, 10)
     //    var l2 = for {

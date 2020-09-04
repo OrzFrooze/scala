@@ -1,6 +1,6 @@
 package unit12
 
-import java.io.{BufferedWriter, File, FileWriter, PrintWriter}
+import java.io.{BufferedWriter, File, FileInputStream, FileOutputStream, FileWriter, PrintWriter}
 import java.sql.{Connection, DriverManager}
 
 import scala.io.Source
@@ -15,6 +15,7 @@ object Fs {
   } finally {
     resouce.close()
   }
+
 
   def readTextFile(fileName: String): Option[List[String]] = {
 
@@ -55,6 +56,44 @@ object Fs {
     bw.close()
   }
 
+
+  def copyFile() = {
+    var in = None: Option[FileInputStream]
+    var out = None: Option[FileOutputStream]
+    try {
+      in = Some(new FileInputStream("E://1.txt"))
+      out = Some(new FileOutputStream("E://1copy.txt"))
+
+      var c = 0
+      while ( {
+        c = in.get.read;
+        c != -1
+      }) {
+        out.get.write(c)
+      }
+
+    } catch {
+      case e: Exception => e.printStackTrace()
+    } finally {
+      println("entered finally ...")
+      if (in.isDefined) in.get.close()
+      if (out.isDefined) out.get.close()
+    }
+
+  }
+
+  def conntLine(source: io.Source): Long = {
+    val NEWLINE = 10
+    var newLineCount = 0L
+    for {
+      line <- source.getLines
+      c <- line
+      if c.toByte == NEWLINE
+    } newLineCount += 1
+    newLineCount
+  }
+
+
   def test1() {
     val r = readTextFile("E:/a.txt")
     r.foreach(s => s.foreach(println))
@@ -75,7 +114,7 @@ object Fs {
       var sql = "select count(*) from sc_toll_rdlink_bt"
       var statement = conn.createStatement
       val rs = statement.executeQuery(sql)
-      while (rs.next){
+      while (rs.next) {
         println(rs.getInt(1))
       }
     } catch {
@@ -87,8 +126,10 @@ object Fs {
 
   def main(args: Array[String]): Unit = {
     //    test()
-//    test1()
-//    writeFile()
-    JDBC()
+    //    test1()
+    //    writeFile()
+    //    JDBC()
+    copyFile()
+//    conntLine()
   }
 }
