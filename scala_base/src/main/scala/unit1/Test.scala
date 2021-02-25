@@ -1,6 +1,10 @@
 package unit1
 
 object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
     def list():Unit = {
       var list = List()
       
@@ -8,7 +12,10 @@ object Test{
     def getInfo() ={
       ("aaa","bbb","cccc")
     }
-
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
     def javaArray():Unit ={
       val a:Int = 10
       val list = new java.util.ArrayList[String]
