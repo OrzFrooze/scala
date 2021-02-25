@@ -1,0 +1,566 @@
+[0m2021.02.25 20:46:04 INFO  Started: Metals version 0.10.0 in workspace 'E:\github\scala\scala_base' for client vscode 1.53.2.[0m
+[0m2021.02.25 20:46:05 INFO  time: initialize in 0.53s[0m
+[0m2021.02.25 20:46:08 WARN  Build server is not auto-connectable.[0m
+[0m2021.02.25 20:46:08 WARN  no build target for: E:\github\scala\scala_base\src\main\scala\unit1\Test.scala[0m
+[0m2021.02.25 20:46:25 INFO  running 'D:\work_program\Java\jdk1.8.0_152\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\wuhuz\AppData\Local\Temp\metals7347516488987187502\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.02.25 20:46:29 INFO  [info] welcome to sbt 1.3.13 (Oracle Corporation Java 1.8.0_152)[0m
+[0m2021.02.25 20:46:32 INFO  [info] loading settings for project scala_base-build-build from metals.sbt ...[0m
+[0m2021.02.25 20:46:32 INFO  [info] loading project definition from E:\github\scala\scala_base\project\project[0m
+[0m2021.02.25 20:46:46 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 23
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 22
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 24
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 25
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 28
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 32
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 33
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 34
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 35
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 31
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 38
+[0m2021.02.25 20:49:51 INFO  user cancelled sbt bloopInstall[0m
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 30
+[0m2021.02.25 20:49:51 INFO  time: ran 'sbt bloopInstall' in 3m26s[0m
+[0m2021.02.25 20:49:51 INFO  sbt bloopInstall exit: 2147483647[0m
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 44
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 45
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 46
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 47
+¶þÔÂ 25, 2021 8:49:51 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 48
+package unit1
+
+object Test{
+    def max (values:Int*):Int={
+      values(0)
+    }
+
+    def list():Unit = {
+      var list = List()
+      
+    }
+    def getInfo() ={
+      ("aaa","bbb","cccc")
+    }
+    
+def mail(mailClass:String="first",des:String="s"):Unit = {
+    println(s" $mailClass $des")
+}
+    def javaArray():Unit ={
+      val a:Int = 10
+      val list = new java.util.ArrayList[String]
+      list.ensureCapacity(a)
+      list.add("sfsf")
+      list.add("222")
+      list.add("232")
+      list.forEach(println)
+    }
+    def ls() = println("=============")
+    def main(args: Array[String]): Unit = {
+        val value = List(1,2,3,4,5)
+        value.map(println)
+        val name = "teshi"
+        println(s"hello world $name")
+        for(i <- 1 until 3) println(s"$i c")
+        println("-------------")
+        (1 to 3).foreach(println)
+        println("-------")
+        javaArray()
+        ls
+        val (a,b,c) = getInfo()
+        println(s"$a $b $c")
+    }
+}
+package unit1
+
+object Test {
+  def max(values: Int*): Int = {
+    values(0)
+  }
+
+  def list(): Unit = {
+    var list = List()
+
+  }
+  def getInfo() = {
+    ("aaa", "bbb", "cccc")
+  }
+
+  def mail(mailClass: String = "first", des: String = "s"): Unit = {
+    println(s" $mailClass $des")
+  }
+  def javaArray(): Unit = {
+    val a: Int = 10
+    val list = new java.util.ArrayList[String]
+    list.ensureCapacity(a)
+    list.add("sfsf")
+    list.add("222")
+    list.add("232")
+    list.forEach(println)
+  }
+  def ls() = println("=============")
+  def main(args: Array[String]): Unit = {
+    val value = List(1, 2, 3, 4, 5)
+    value.map(println)
+    val name = "teshi"
+    println(s"hello world $name")
+    for (i <- 1 until 3) println(s"$i c")
+    println("-------------")
+    (1 to 3).foreach(println)
+    println("-------")
+    javaArray()
+    ls
+    val (a, b, c) = getInfo()
+    println(s"$a $b $c")
+  }
+}
+
+[0m2021.02.25 20:49:54 WARN  no build target for: E:\github\scala\scala_base\src\main\scala\unit1\Test.scala[0m
+[0m2021.02.25 20:49:54 INFO  time: code lens generation in 1.12s[0m
+¶þÔÂ 25, 2021 8:50:40 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:50:56 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+[0m2021.02.25 20:51:17 WARN  no build target for: E:\github\scala\scala_base\src\main\scala\unit1\Test.scala[0m
+[0m2021.02.25 20:51:46 WARN  Build server is not auto-connectable.[0m
+[0m2021.02.25 20:51:50 WARN  no build target for: E:\github\scala\scala_base\src\main\scala\unit1\Test.scala[0m
+[0m2021.02.25 20:51:58 INFO  running 'D:\work_program\Java\jdk1.8.0_152\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\wuhuz\AppData\Local\Temp\metals188807000641394529\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.02.25 20:52:01 INFO  [info] welcome to sbt 1.3.13 (Oracle Corporation Java 1.8.0_152)[0m
+[0m2021.02.25 20:52:03 INFO  [info] loading settings for project scala_base-build-build from metals.sbt ...[0m
+[0m2021.02.25 20:52:03 INFO  [info] loading project definition from E:\github\scala\scala_base\project\project[0m
+[0m2021.02.25 20:54:16 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m2021.02.25 20:54:19 INFO  [info] loading settings for project scala_base-build from metals.sbt ...[0m
+[0m2021.02.25 20:54:19 INFO  [info] loading project definition from E:\github\scala\scala_base\project[0m
+[0m2021.02.25 20:54:20 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m2021.02.25 20:54:20 INFO  [success] Generated .bloop\scala_base-build.json[0m
+[0m2021.02.25 20:54:20 INFO  [success] Total time: 2 s, completed 2021-2-25 20:54:21[0m
+[0m2021.02.25 20:54:22 INFO  [info] loading settings for project scala_base from build.sbt ...[0m
+[0m2021.02.25 20:54:22 INFO  [info] set current project to scala_base (in build file:/E:/github/scala/scala_base/)[0m
+[0m2021.02.25 20:54:22 INFO  [error] lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:[0m
+[0m2021.02.25 20:54:22 INFO  [error] https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar: wrong checksum: C:\Users\wuhuz\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar (expected SHA-1 d0df6e78b6ccb0102cb0395bfa8cb806e9e81b61 in C:\Users\wuhuz\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\.scala-library-2.13.5.jar__sha1, got c4e54f12a44cb76ef87a2e502fc371db394c908f)[0m
+[0m2021.02.25 20:54:22 INFO  [error] [0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at lmcoursier.internal.shaded.coursier.Artifacts$.$anonfun$fetchArtifacts$14(Artifacts.scala:302)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at java.lang.Thread.run(Thread.java:748)[0m
+[0m2021.02.25 20:54:22 INFO  [error] Caused by: lmcoursier.internal.shaded.coursier.cache.ArtifactError$WrongChecksum: wrong checksum: C:\Users\wuhuz\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar (expected SHA-1 d0df6e78b6ccb0102cb0395bfa8cb806e9e81b61 in C:\Users\wuhuz\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\.scala-library-2.13.5.jar__sha1, got c4e54f12a44cb76ef87a2e502fc371db394c908f)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$validateChecksum$4(FileCache.scala:704)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.util.Success.$anonfun$map$1(Try.scala:255)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.util.Success.map(Try.scala:213)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m2021.02.25 20:54:22 INFO  [error] 	at java.lang.Thread.run(Thread.java:748)[0m
+[0m2021.02.25 20:54:22 INFO  [error] (update) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:[0m
+[0m2021.02.25 20:54:22 INFO  [error] https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar: wrong checksum: C:\Users\wuhuz\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar (expected SHA-1 d0df6e78b6ccb0102cb0395bfa8cb806e9e81b61 in C:\Users\wuhuz\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\.scala-library-2.13.5.jar__sha1, got c4e54f12a44cb76ef87a2e502fc371db394c908f)[0m
+[0m2021.02.25 20:54:22 INFO  [error] Total time: 0 s, completed 2021-2-25 20:54:23[0m
+[0m2021.02.25 20:54:22 INFO  sbt bloopInstall exit: 1[0m
+[0m2021.02.25 20:54:23 INFO  time: ran 'sbt bloopInstall' in 2m25s[0m
+[0m2021.02.25 20:54:23 ERROR sbt command failed: D:\work_program\Java\jdk1.8.0_152\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\wuhuz\AppData\Local\Temp\metals188807000641394529\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+¶þÔÂ 25, 2021 8:54:47 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:55:36 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:55:37 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:55:40 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:55:52 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:55:54 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:55:56 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:56:03 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:56:09 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:56:11 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:58:22 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:58:29 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:58:31 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:58:33 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:58:36 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:58:57 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 8:59:52 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 9:01:00 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+¶þÔÂ 25, 2021 9:01:12 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+[0m2021.02.25 21:02:39 INFO  shutting down Metals[0m
