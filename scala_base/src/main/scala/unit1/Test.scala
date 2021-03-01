@@ -1,6 +1,25 @@
 package unit1
 
+class Car(val year: Int) {
+  private var milesDriven: Int = 0
+
+  def miles: Int = milesDriven
+
+  def drive(distance: Int): Unit = {
+    milesDriven += Math.abs(distance)
+  }
+}
+
 object Test {
+
+
+  def classTest():Unit={
+    val car =new Car(2001);
+    println(s"Car made in year ${car.year}")
+    println(s"miles driven ${car.miles}")
+    car.drive(10)
+    println(s"miles driven ${car.miles}")
+  }
   def max(values: Int*): Int = {
     values(0)
   }
@@ -39,5 +58,7 @@ object Test {
     ls
     val (a, b, c) = getInfo()
     println(s"$a $b $c")
+    ls
+    classTest()
   }
 }
