@@ -29,6 +29,7 @@ class Dude(@BeanProperty val firstName:String,val lastName:String){//生成javab
 object Test {
 
 
+
   def classTest(): Unit = {
     val car = new Car(2001);
     println(s"Car made in year ${car.year}")

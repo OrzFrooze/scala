@@ -1,23 +1,29 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging E:\github\scala\scala_base\target\scala-2.12\scala_base_2.12-0.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	META-INF[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\META-INF[0m
-[0m[[0m[0mdebug[0m] [0m[0m	META-INF\scala_base.kotlin_module[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\META-INF\scala_base.kotlin_module[0m
-[0m[[0m[0mdebug[0m] [0m[0m	unit1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	unit1\Car.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Car.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	unit1\Dude.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Dude.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	unit1\Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Person.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	unit1\Pig.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Pig.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	unit1\Pizze.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Pizze.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	unit1\Test$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Test$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	unit1\Test.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Test.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[debug] Packaging E:\github\scala\scala_base\target\scala-2.12\scala_base_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	ClassDemo.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\ClassDemo.class
+[debug] 	Marker$.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\Marker$.class
+[debug] 	Marker.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\Marker.class
+[debug] 	MarkerFacotry$.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\MarkerFacotry$.class
+[debug] 	MarkerFacotry.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\MarkerFacotry.class
+[debug] 	unit1
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1
+[debug] 	unit1\Car.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Car.class
+[debug] 	unit1\Dude.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Dude.class
+[debug] 	unit1\Person.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Person.class
+[debug] 	unit1\Pig.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Pig.class
+[debug] 	unit1\Pizze.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Pizze.class
+[debug] 	unit1\Test$.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Test$.class
+[debug] 	unit1\Test.class
+[debug] 	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Test.class
+[debug] Done packaging.
