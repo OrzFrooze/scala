@@ -1,5 +1,7 @@
 package unit1
 
+import scala.beans.BeanProperty
+
 class Car(val year: Int) {
   private var milesDriven: Int = 0
 
@@ -10,16 +12,42 @@ class Car(val year: Int) {
   }
 }
 
+class Person(var name: String, var age: Int);
+
+class Pig(val name: String, val age: Int);
+
+class Pizze(var size: Int, var len: String) {
+  def this(size: Int) { //辅助构造器   通过辅助构造器实现不同参数的构造函数
+    this(size, "")
+  }
+}
+
+class Dude(@BeanProperty val firstName:String,val lastName:String){//生成javabean风格的访问器
+  @BeanProperty val position:String = ""
+}
+
 object Test {
 
 
-  def classTest():Unit={
-    val car =new Car(2001);
+  def classTest(): Unit = {
+    val car = new Car(2001);
     println(s"Car made in year ${car.year}")
     println(s"miles driven ${car.miles}")
     car.drive(10)
     println(s"miles driven ${car.miles}")
+
+    val p = new Person("wuhg", 19)
+    println(s"${p.name}--${p.age}")
+    p.name = "edit"
+    println(s"${p.name}--${p.age}")
+
+    ls()
+
+    val g = new Pig("sssss", 10)
+    println(s"${g.name}--${g.age}")
+
   }
+
   def max(values: Int*): Int = {
     values(0)
   }
@@ -28,6 +56,7 @@ object Test {
     var list = List()
 
   }
+
   def getInfo() = {
     ("aaa", "bbb", "cccc")
   }
@@ -35,6 +64,7 @@ object Test {
   def mail(mailClass: String = "first", des: String = "s"): Unit = {
     println(s" $mailClass $des")
   }
+
   def javaArray(): Unit = {
     val a: Int = 10
     val list = new java.util.ArrayList[String]
@@ -44,7 +74,9 @@ object Test {
     list.add("232")
     list.forEach(println)
   }
+
   def ls() = println("=============")
+
   def main(args: Array[String]): Unit = {
     val value = List(1, 2, 3, 4, 5)
     value.map(println)

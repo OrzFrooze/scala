@@ -1,11 +1,23 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging E:\github\scala\scala_base\target\scala-2.13\scala_base_2.13-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging E:\github\scala\scala_base\target\scala-2.12\scala_base_2.12-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\META-INF[0m
+[0m[[0m[0mdebug[0m] [0m[0m	META-INF\scala_base.kotlin_module[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\META-INF\scala_base.kotlin_module[0m
 [0m[[0m[0mdebug[0m] [0m[0m	unit1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.13\classes\unit1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1[0m
 [0m[[0m[0mdebug[0m] [0m[0m	unit1\Car.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.13\classes\unit1\Car.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Car.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unit1\Dude.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Dude.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unit1\Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unit1\Pig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Pig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	unit1\Pizze.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Pizze.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	unit1\Test$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.13\classes\unit1\Test$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Test$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	unit1\Test.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.13\classes\unit1\Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  E:\github\scala\scala_base\target\scala-2.12\classes\unit1\Test.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

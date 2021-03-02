@@ -1,2 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m2 deprecations (since 2.13.3); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mE:\github\scala\scala_base\src\main\scala\unit1\Test.scala:26:39: unbound placeholder parameter[0m
+[0m[[0m[31merror[0m] [0m[0m  @BeanProperty val position:String = _[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
