@@ -14,7 +14,7 @@ object MarkerFactory {
     "blue" -> Marker("blue"),
     "yellow" -> Marker("yellow")
   )
-
+  markers += ("black"->Marker("black"))
 
   def getMarker(color: String): Marker = markers.getOrElseUpdate(color, Marker(color))
 }
