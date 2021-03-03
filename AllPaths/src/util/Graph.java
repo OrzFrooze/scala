@@ -6,7 +6,7 @@ public class Graph {
 	private int adjMat[][]; // adjacency matrix
 
 	private int nVerts;
-	private static int MAX_VERTS = 7; // n¸öµã
+	private static int MAX_VERTS = 7; // nä¸ªç‚¹
 
 	int i = 0;
 	int j = 0;
@@ -24,8 +24,8 @@ public class Graph {
 	}
 
 	public Graph(int index) {
-		adjMat = new int[MAX_VERTS][MAX_VERTS]; // ÁÚ½Ó¾ØÕó
-		vertexList = new Vertex[MAX_VERTS]; // ¶¥µãÊý×é
+		adjMat = new int[MAX_VERTS][MAX_VERTS]; // é‚»æŽ¥çŸ©é˜µ
+		vertexList = new Vertex[MAX_VERTS]; // é¡¶ç‚¹æ•°ç»„
 		nVerts = 0;
 
 		for (i = 0; i < MAX_VERTS; i++) {
@@ -70,13 +70,13 @@ public class Graph {
 		adjMat[start][end] = 0;
 	}
 
-	private void addEdge(int start, int end) {// ÓÐÏòÍ¼£¬Ìí¼Ó±ß
+	private void addEdge(int start, int end) {// æœ‰å‘å›¾ï¼Œæ·»åŠ è¾¹
 		adjMat[start][end] = 1;
 		// adjMat[end][start] = 1;
 	}
 
 	public void addVertex(char lab) {
-		vertexList[nVerts++] = new Vertex(lab);// Ìí¼Óµã
+		vertexList[nVerts++] = new Vertex(lab);// æ·»åŠ ç‚¹
 	}
 
 	public char displayVertex(int i) {
@@ -89,11 +89,11 @@ public class Graph {
 
 	public void printGraph() {
 		for (i = 0; i < MAX_VERTS; i++) {
-			System.out.print("µÚ" + displayVertex(i) + "¸ö½Úµã:" + " ");
+			System.out.print("ç¬¬" + displayVertex(i) + "ä¸ªèŠ‚ç‚¹:" + " ");
 
 			for (j = 0; j < MAX_VERTS; j++) {
 				System.out.print(displayVertex(i) + "-" + displayVertex(j)
-						+ "£º" + adjMat[i][j] + " ");
+						+ "ï¼š" + adjMat[i][j] + " ");
 			}
 			System.out.println();
 		}

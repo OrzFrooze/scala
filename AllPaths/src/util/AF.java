@@ -27,7 +27,7 @@ public class AF {
 
 		if (!isConnectable(start, end)) {
 			isAF = false;
-			counterexample = "½ÚµãÖ®¼äÃ»ÓĞÍ¨Â·";
+			counterexample = "èŠ‚ç‚¹ä¹‹é—´æ²¡æœ‰é€šè·¯";
 		} else {
 			for (int j = 0; j < n; j++) {
 				tempList = new ArrayList<Integer>();
@@ -54,7 +54,7 @@ public class AF {
 					tempList.add(0);
 				}
 				graph.getVertexList()[theStack.peek()]
-						.setAllVisitedList(tempList);// °ÑÕ»¶¥½Úµã·ÃÎÊ¹ıµÄ½ÚµãÁ´±íÇå¿Õ
+						.setAllVisitedList(tempList);// æŠŠæ ˆé¡¶èŠ‚ç‚¹è®¿é—®è¿‡çš„èŠ‚ç‚¹é“¾è¡¨æ¸…ç©º
 				theStack.pop();
 			} else // if it exists,
 			{
@@ -72,7 +72,7 @@ public class AF {
 		return isAF;
 	}
 
-	// ÅĞ¶ÏÁ¬¸ö½ÚµãÊÇ·ñÄÜÁ¬Í¨
+	// åˆ¤æ–­è¿ä¸ªèŠ‚ç‚¹æ˜¯å¦èƒ½è¿é€š
 	private boolean isConnectable(int start, int end) {
 		ArrayList<Integer> queue = new ArrayList<Integer>();
 		ArrayList<Integer> visited = new ArrayList<Integer>();
@@ -107,7 +107,7 @@ public class AF {
 		return counterexample;
 	}
 
-	// Óë½ÚµãvÏàÁÚ£¬²¢ÇÒÕâ¸ö½ÚµãÃ»ÓĞ±»·ÃÎÊµ½£¬²¢ÇÒÕâ¸ö½Úµã²»ÔÚÕ»ÖĞ
+	// ä¸èŠ‚ç‚¹vç›¸é‚»ï¼Œå¹¶ä¸”è¿™ä¸ªèŠ‚ç‚¹æ²¡æœ‰è¢«è®¿é—®åˆ°ï¼Œå¹¶ä¸”è¿™ä¸ªèŠ‚ç‚¹ä¸åœ¨æ ˆä¸­
 	public int getAdjUnvisitedVertex(int v) {
 		ArrayList<Integer> arrayList = graph.getVertexList()[v]
 				.getAllVisitedList();

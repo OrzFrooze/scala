@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Vertex {
 
-	boolean wasVisited; // ÊÇ·ñ±éÀú¹ı
-	public char label; // ½ÚµãÃû³Æ
-	ArrayList<Integer> allVisitedList;// ½ÚµãÒÑ·ÃÎÊ¹ıµÄ¶¥µã
+	boolean wasVisited; // æ˜¯å¦éå†è¿‡
+	public char label; // èŠ‚ç‚¹åç§°
+	ArrayList<Integer> allVisitedList;// èŠ‚ç‚¹å·²è®¿é—®è¿‡çš„é¡¶ç‚¹
 
 	public void setAllVisitedList(ArrayList<Integer> allVisitedList) {
 		this.allVisitedList = allVisitedList;

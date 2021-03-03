@@ -4,7 +4,7 @@ import util.Graph;
 public class Main {
 
 	public static void main(String[] args) {
-        //µÚ¼¸ÕÅÍ¼£¬ÓĞÁ½ÕÅ(0,1)£¬ÆğµãĞòºÅ(0-6)£¬ÖÕµãĞòºÅ(0-6)
+        //ç¬¬å‡ å¼ å›¾ï¼Œæœ‰ä¸¤å¼ (0,1)ï¼Œèµ·ç‚¹åºå·(0-6)ï¼Œç»ˆç‚¹åºå·(0-6)
 		AF operation = new AF(new Graph(0), 3, 6);
 		operation.getResult();
 
