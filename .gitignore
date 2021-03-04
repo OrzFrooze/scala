@@ -3,9 +3,11 @@
 target/**
 /target/
 **/target/**
-.metals/**
+**/.metals/**
 .bloop/**
 .idea/**
 .vscode/**
 *.iml
 **/.vscode/**
+**/.bloop/**
+**/.idea/**
