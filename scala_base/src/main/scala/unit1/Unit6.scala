@@ -11,6 +11,17 @@ class Equipment(val routine: Int => Int) {
  * 函数值和闭包
  */
 object Unit6 {
+  def backFun(init: Int): () => Int = {
+    var r = init
+
+    def b(): Int = {
+      println(s"this is $r")
+      r
+    }
+
+    b
+  }
+
   def calc(range: Int, codeBlock: (Int, Int) => Int): Int = {
     var r = 0
     for (i <- 1 to range by 2) {
@@ -66,9 +77,10 @@ object Unit6 {
     val b = (0 /: arr) {
       _ + _
     }
+    val d =  backFun(2)()
 
     printValue(() => 23)
-    println(a, r, c, aa, max, min, b)
+    println(a, r, c, aa, max, min, b,d)
   }
 
 
@@ -79,5 +91,7 @@ object Unit6 {
     val b = new Equipment({ input => println(s"calc with $input"); input })
     a.simulate(4)
     b.simulate(6)
+
+
   }
 }
