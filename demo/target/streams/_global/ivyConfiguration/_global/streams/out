@@ -1,1 +1,0 @@
-[warn] insecure HTTP request is deprecated 'http://maven.mzsvn.com/repository/admonitor'; switch to HTTPS or opt-in as ("Admonitor Repository" at "http://maven.mzsvn.com/repository/admonitor").withAllowInsecureProtocol(true)
